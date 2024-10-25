@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>Cadastro de Caminhões</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="cadastro-caminhoes.html">Cadastro de Caminhões</a></li>
+            <li><a href="lista-caminhoes.html">Lista de Caminhões</a></li>
+            <li><a href="relatorios.html">Relatórios</a></li>
+            <li><a href="admin.html">Administração</a></li>
+        </ul>
+    </nav>
+    <h1>Cadastro de Caminhões</h1>
+    <form id="form-caminhao">
+        <input type="text" id="modelo" placeholder="Modelo" required>
+        <input type="text" id="marca" placeholder="Marca" required>
+        <input type="number" id="ano" placeholder="Ano" required>
+        <input type="number" id="preco" placeholder="Preço" required>
+        <textarea id="descricao" placeholder="Descrição"></textarea>
+        <button type="submit">Cadastrar</button>
+    </form>
+</body>
+</html>
